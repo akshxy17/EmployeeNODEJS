@@ -1,0 +1,87 @@
+body {
+  font-family: Arial;
+  margin: 30px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+}
+button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+tr:hover {
+    background-color: #e6f7ff;
+    transition: background 0.2s;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+form {
+    background: #f9f9f9;
+    padding: 16px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    max-width: 500px;
+}
+
+table {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    border-radius: 6px;
+    overflow: hidden;
+}
+button:hover {
+  background-color: #45a049;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
+/* --- a/file:///c%3A/Users/aksha_1l1zsj2/OneDrive/Desktop/employee-crud-app/style.css */
+/* +++ b/file:///c%3A/Users/aksha_1l1
+
+
+
